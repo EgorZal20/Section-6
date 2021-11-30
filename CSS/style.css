@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section__six {
+    height: 800px;
+    background-color: #d74681;
+}
+
+.header__six {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.header__six::after {
+    content: ' ';
+    display: flex;
+    margin-left: 47%;
+    border-bottom: 2px solid rgb(129, 129, 129);
+    border-radius: 15%;
+    width: 73px;
+    bottom: 475px;
+    left: 46%;
+    box-shadow: 0 0 5px 1px rgb(107, 107, 107);
+    opacity: 0.5;
+
+    margin-top: 21px;
+}
+
+.subtitle__six {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.img__six {
+    background-color: rgb(194, 194, 194);
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.img__six_item {
+    display: flex;
+}
+
+.contact__six_one {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.contact__six_two {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.text__six {
+    width: 250px;
+    padding-left: 40px;
+    color: white;
+    align-items: center;
+}
+
+.cont__six {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .section__six {
+        height: 1400px;
+    }
+    .header__six {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 50px;
+        font-size: 38px;
+        color: white;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 65px;
+    }
+    .header__six::after {
+        content: ' ';
+        display: flex;
+        margin-left: 42.5%;
+        border-bottom: 2px solid rgb(129, 129, 129);
+        border-radius: 15%;
+        width: 87px;
+        bottom: 475px;
+        left: 46%;
+        box-shadow: 0 0 5px 1px rgb(107, 107, 107);
+        opacity: 0.5;
+    
+        margin-top: 21px;
+    }  
+    .subtitle__six {
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    .img__six_item {
+        display: block;
+    }
+    .text__six {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img__six {
+       margin-left: 45%;
+    }
+    .contact__six_one {
+        max-width: 790px;
+        display: block;
+        
+    }
+    .contact__six_two {
+        max-width: 790px;
+        display: block;
+    }
+    .img__six_item {
+        padding-top: 100px;
+    }
+}
